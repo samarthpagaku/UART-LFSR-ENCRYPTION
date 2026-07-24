@@ -1,0 +1,5 @@
+read_verilog decryption.v
+synth -top decryption
+dfflibmap -liberty ~/pdk/nangate45_lib/NangateOpenCellLibrary_typical.lib
+abc -liberty ~/pdk/nangate45_lib/NangateOpenCellLibrary_typical.lib
+stat -liberty ~/pdk/nangate45_lib/NangateOpenCellLibrary_typical.lib
