@@ -41,7 +41,7 @@ initial begin
     // TEST 1
     //-------------------------------------------------
     #20;
-    data_in = 8'h55;
+    data_in = 8'h00;
     tx_start = 1;
 
     // Keep tx_start high long enough
